@@ -156,9 +156,38 @@ button {
   font-size: 1.1rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  transition: transform 0.1s ease;
 }
 
 button:hover {
   background-color: #d45b28;
 }
 
+button:active{
+  transform: scale(0.9);
+}
+
+/*Responsive Design*/
+
+@media (max-midth:500px){
+  .screen {
+    padding: 1rem;
+  }
+
+  #start-screen h1 {
+    font-size: 2rem;
+  }
+
+  #question-text {
+    font-size: 1.3rem;
+  }
+
+  .answer-btn {
+    padding: 12px;
+  }
+
+  button {
+    padding: 12px 25px;
+    font-size: 1rem;
+  }
+}
