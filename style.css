@@ -92,13 +92,13 @@ body{
   border-color: #dac0ae;
 }
 
-.answer-btn.corret {
+.answer-btn.correct {
   background-color: #e6fff0;
   border-color: #a3f0c4;
   color: #28a745;
 }
 
-.answer-btn.incorret {
+.answer-btn.incorrect {
   background-color: #fff0f0;
   border-color: #ffbdbd;
   color: #dc3545;
@@ -154,6 +154,7 @@ button {
   border-radius: 10px;
   padding: 15px 30px;
   font-size: 1.1rem;
+  margin-top: 10px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   transition: transform 0.1s ease;
